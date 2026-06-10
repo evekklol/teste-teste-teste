@@ -1,0 +1,1603 @@
+/* commission by #480107 for the use of #352053 only. original template by katie #106445 */
+
+/* background */
+
+@media screen and (min-width: 601px) {
+body {
+	background: url('https://files.catbox.moe/vcn3zv.jpg') center center fixed;
+	background-size: cover !important;
+        border-radius: 10px !important; 
+        color: #ffefb9;
+        text-shadow: -1px -1px 0 #866500, 1px -1px 0 #866500, -1px  1px 0 #866500, 1px  1px 0 #866500;  
+}
+}
+
+@media screen and (max-width: 600px) {
+body {
+    background: url('https://files.catbox.moe/vcn3zv.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #ffefb9;
+    text-shadow: -1px -1px 0 #794e0f, 1px -1px 0 #794e0f, -1px  1px 0 #794e0f, 1px  1px 0 #794e0f; 
+}
+}
+
+:root {
+--cream: #FAF9D0ff;
+--vanilla: #F1E3A4ff;
+--flax: #E7CD78ff;
+--gold-metallic: #DEB64Bff;
+--earth-yellow: #DDB565ff;
+--jasmine: #E7C46Eff;
+--jasmine-2: #ECD075ff;
+--flax-2: #EED987ff;
+--flax-3: #F4E198ff;
+
+}
+
+/* RIGHT SIDE */
+
+.container.main {
+	border-radius: 10px !important;
+        border: 1px solid #DEB64B;
+        background: #794B1299;
+        box-shadow: #5e3b0f -10px 40px 100px 50px inset;
+}
+
+/* LEFT SIDE */
+
+.col-md-9 {
+	background: none;
+        border-right: none;
+}
+
+/* TOPBAR ("Welcome back, ___") */
+
+.topbar {
+        background: #E7CD78; 
+	    border-radius: 10px;
+        border: none;
+        border-top: none;
+}
+
+/* NAVBAR (Den/Crossroads/Etc.) */
+
+.navbar {
+       background: #DDB565 !important;
+       border-radius: 10px;
+       transition: 1s !important;
+}
+
+.navbar li a {
+	    border-radius: 10px;
+        color: #ffefb9 !important;
+        text-shadow: -1px -1px 0 #794e0f, 1px -1px 0 #794e0f, -1px  1px 0 #794e0f, 1px  1px 0 #794e0f; 
+        transition: 1s; 
+}
+
+/* NAVBAR BUTTON HOVER */
+
+.navbar li a:hover {
+	background: #9C7028 !important;
+        background-size: cover !important;
+        color: #ffe595 !important;
+        border: none;
+        text-shadow: 2px 2px 2px #794e0f;
+        padding-left: 50px;
+	transition: 1s;
+}
+
+/* BREADCRUMB (Home / Den) */
+
+.breadcrumb {
+	border-radius: 10px;
+        background:  #E7CD78;
+        border: none;
+}
+
+/* BREADCRUMB TEXT */
+
+.breadcrumb .active {
+	color: #ffefb9 !important;
+}
+
+/* CSS CREDIT */
+
+div.col-md-12.col-xs-6 > a > h3 > div::before {
+content: 'CSS by #480107';
+color: #ffefb9;
+background: #9C7028 !important;
+border-radius: 10px;
+border: none;
+padding: 5px;
+text-shadow: 1px 1px 1px #794e0f;
+font-size: 10px;
+position: absolute;
+right: -5px;
+z-index: 100;
+
+}
+
+/* BOOKMARK */
+
+input.floatright { 
+       background: #5e3b0f !important;
+       color: #ffe9a4 !important;
+       text-shadow: 1px 1px 1px #794e0f !important;
+       border: none !important;
+       border-radius: 10px; 
+       margin-top: 2px !important; 
+       transition: 1s;
+}
+
+input.floatright:hover { 
+       background: #DDB565 !important;
+       color: #ffe9a4 !important;
+       text-shadow: 1px 1px 1px #794e0f !important;
+       border: none;
+       border-radius: 10px; 
+       margin-top: -2px; 
+       transition: 1s;
+}
+
+/* SWITCH ACCOUNT BUTTON */
+
+button.button {
+        background: #5e3b0f !important; 
+        color: #ffe9a4;
+        text-shadow: 1px 1px 1px #794e0f;
+        border: none;
+	border-radius: 10px; 
+        margin-top: 0px; 
+        transition: 1s;
+}
+
+button.button:hover { 
+        background: #DDB565 !important; 
+        color: #ffe9a4;
+        text-shadow: 1px 1.5px 1px #794e0f;
+        border: none;
+	border-radius: 10px; 
+        margin-top: 0px; 
+        transition: 1s;
+}
+
+/* attack history button */
+
+form > input[type=submit] {
+       background: #5e3b0f !important;
+       color: #ffe9a4 !important;
+       text-shadow: 1px 1px 1px #794e0f !important;
+       border: none;
+       border-radius: 10px; 
+       margin-top: 0px; 
+       transition: 1s;
+}
+
+form > input[type=submit]:hover { 
+        background: #DDB565 !important; 
+        color: #F9E9A3;
+        text-shadow: 2px 1.5px 1px #794e0f;
+        border: none;
+	border-radius: 10px; 
+        margin-top: 0px; 
+        transition: 1s;
+}
+
+/* ALERTS (ie. "Your lionesses have returned from hunting!") */
+
+.alert {
+   background: #af8437 !important;       
+   color: #ffefb9 !important;
+   border: 1px solid #DEB64B;
+   border-radius: 10px !important;
+}
+
+.alert-warning {
+   background: #9C7028 !important;
+   color: #ffefb9 !important;
+   border: 1px solid #DEB64B;
+   border-radius: 10px !important;
+}
+
+.alert-danger {
+   background: #9c711d !important;
+   color: #ffefb9 !important;
+   text-shadow: 2px 1.5px 1px #794e0f !important;
+   border: 1px solid #DEB64B;
+   border-radius: 10px !important;
+}
+
+/* BIGGEST HEADER ("___"'s DEN) */
+
+h1 {  	font-size: 55px;
+	text-align: center;
+        color: #FAF9D0 !important;
+        text-shadow: 2px 2px 2px #000;
+}
+
+/* ENERGY BAR BACKGROUND */
+
+.progress {
+        text-shadow: 1px 1px 1px #ffefbe;
+        background: #FAF9D0 !important;
+	border-radius: 10px !important;
+}
+.progress div {
+	color: #794e0f !important;
+}
+
+/* PANEL BACKGROUND COLOR */
+
+.table { 
+        color: #ffefb9 !important;
+        background: #bc8f46 !important;
+        border-radius: 10px !important;
+        border: none;      
+}
+
+#frmGifting > table {
+      background: #bc8f46 !important;
+      border-radius: 10px;
+      text-shadow: -1px -1px 0 #794e0f, 1px -1px 0 #794e0f, -1px  1px 0 #794e0f, 1px  1px 0 #794e0f;
+
+}
+
+/* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
+
+.top, .bottom,
+th {
+  background: #E7CD68 !important;
+  border-radius: 10px;
+
+}
+
+.inner-table .left {
+     color: #fff !important;
+     background: #E7CD78 !important;
+     border-radius: 10px;
+}
+
+.inner-table .right {
+    color: #fff !important;
+    background: #DDB565 !important;
+    border-radius: 10px !important;
+}
+
+/* Color behind the number of all of the things above */
+
+td.right {
+	border-radius: 0px !important;            
+}
+
+/* IGNORE */
+
+.right_odd {
+	background: none !important;
+}
+
+/* Affects the color behind "_ Unsorted", "_ Pregnant Lionesses", "View Pride Overview", and cave/mound names */
+
+.cave-grid {
+        border-radius: 10px;
+        width: 230px;
+        background: #DDB565 !important;
+        border: 1px solid #DEB64B;
+}
+
+.mound-grid {
+	border-radius: 10px;
+        background: #9C7028 !important;
+        border: 1px solid #DEB64B;   
+}
+
+/* FEED ALL, PLAY ALL */
+
+.feature {
+       background: #5e3b0f !important;
+       color: #ffe9a4 !important;
+       text-shadow: 1px 1px 1px #794e0f !important;
+       border: none;
+       border-radius: 10px; 
+       margin-top: 0px; 
+       transition: 1s;
+}
+
+.feature:hover { 
+        background: #DDB565 !important; 
+        color: #F9E9A3;
+        text-shadow: 2px 1.5px 1px #794e0f;
+        border: none;
+	border-radius: 10px; 
+        margin-top: 0px; 
+        transition: 1s;
+}
+
+/* Block of color behind "Territory Description, Player Name, Avatar URL" etc. */
+
+.table .left {
+       border: none;
+       color: #ffefb9;
+       background: #9C7028;   
+}
+
+/* Color behind the content of the elements listed above */
+
+input,
+select,
+textarea {
+	background: #9C7028 !important;
+        color: #ffefb9 !important; 
+        border: none !important; 
+	border-radius: 10px !important;
+        text-shadow: none;
+}
+
+/* panel border radius */
+
+tr:nth-child(1) > td.left.b, td.left.b, tr:nth-child(1) > td, tr:nth-child(1) > td.left.b {
+border-radius: 10px !important;
+
+}
+
+/* ACCOUNT OPTIONS PANELS (Friend Requests Toggles, etc.) */
+
+.item-header {
+	border-radius: 10px;
+        background: #4F320C;
+        text-shadow: 1px 1px 1px #794e0f;
+        color: #ffefb9;
+}
+
+.item {
+	background: #9E6D13 !important;
+        color: #ffefb9; 
+        border: none;
+	border-radius: 10px !important
+}
+
+/* ACCOUNT OPTIONS ON/OFF TOGGLE SWITCH */
+
+div.slider.round /* Background */ {
+	background: #CDB57D !important;
+        border: 1px solid #DEB64B;
+}
+
+div.slider.round::before /* Circle Part */ {
+	background: #A9812F !important;
+}
+
+/* Copyright, Terms of Service, CoC, etc. */
+
+div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
+        color: inherit !important;
+        text-shadow: 1.5px 1px 1.5px inherit !important;
+}
+
+/* "King Dynasty, Pride Dynasty, Achievements, Showcase" Panels */
+
+div.left {
+        background: #9C7028;
+        color: #ffefb9;
+        border-radius: 10px !important;
+        border: 1px solid #DEB64B;
+}
+
+#lion_image {
+        border-radius: 10px;
+        margin-top: 15px;
+        position: relative;
+        border: none;
+        opacity: 1;
+        overflow: hidden;
+        transition: 1.5s;
+}
+
+#lion_image:hover {
+      border-radius: 10px !important;
+      opacity: 1;
+      transition: 1.5s;     
+}
+
+table#player img {
+	opacity: 1;
+        transition: 1.5s;
+        overflow: hidden;
+        border: none;
+        border-radius: 10px;
+}
+
+table#player img:hover {
+	opacity: 1;
+        transition: 1.5s;
+}
+
+.progress-bar {
+   background: #E7C46E;
+}
+
+.progress-bar-warning {
+   background: #fae588 !important;
+}
+
+.progress-bar-danger {
+    background: #E7CD98;
+}
+
+.progress-bar-success {
+  background: #DDB565 !important;
+}
+
+/* LINK COLOR */
+
+a:link {
+     color: #fff !important;
+     transition: 1s;
+}
+
+a:visited {
+	color: #fff !important;
+        transition: 1s;
+}
+
+/* LINK HOVER COLOR */
+
+a:hover {
+	color: #f1c84a !important;
+        letter-spacing: 0.5px !important;
+        transition: 1s;
+}
+
+/* WIDTH */
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+background: #fae588 !important;
+border: 1px solid #150c5a !important;
+
+}
+
+::-webkit-scrollbar-thumb {
+   background: #8b6a35;
+   border: 1px solid #DEB64B;
+}
+
+/* logo replacer */
+
+div.container.main > div:nth-child(1) > nav > div.navbar-header > a > img {
+    content: url('https://files.catbox.moe/l91x9b.png');
+    filter: drop-shadow(0px 1px 4px #794e0f);
+    
+}
+
+/* cave / mound images */
+
+div.cave-grid>img[src$="nestingbanner.png"] {
+	content: url('https://files.catbox.moe/py49ek.png')!important;
+	height: 130px;
+	width: 230px;
+	opacity: 1;
+	overflow: hidden;
+	border: 0px;
+	border-radius: 10px;
+        transition: 1.5s !important;
+}
+
+div.cave-grid>img[src$="nestingbanner.png"]:hover{
+	content: url('https://files.catbox.moe/py49ek.png')!important;
+	height: 130px;
+	width: 230px;
+	opacity: 1;
+	overflow: hidden;
+	transition: 1.5s !important;
+}
+
+div.cave-grid>img[src$="prideoverviewbanner.png"] {
+	content: url('https://files.catbox.moe/y3wvup.png')!important;
+	height: 130px;
+	width: 230px;
+	opacity: 1;
+	overflow: hidden;
+	border: 0px;
+	border-radius: 10px;
+        transition: 1.5s !important;
+}
+
+div.cave-grid>img[src$="prideoverviewbanner.png"]:hover{
+	content: url('https://files.catbox.moe/y3wvup.png')!important;
+	height: 130px;
+	width: 230px;
+	opacity: 1;
+	overflow: hidden;
+	transition: 1.5s !important;
+}
+
+div.cave-grid>img[src$="unsortedlionsbanner.png"] {
+	content: url('https://files.catbox.moe/8ieyvc.png')!important;
+	height: 130px;
+	width: 230px;
+	opacity: 1;
+	overflow: hidden;
+	border: 0px;
+	border-radius: 10px;
+        transition: 1.5s !important;
+}
+
+div.cave-grid>img[src$="unsortedlionsbanner.png"]:hover{
+	content: url('https://files.catbox.moe/8ieyvc.png')!important;
+	height: 130px;
+	width: 230px;
+	opacity: 1;
+	overflow: hidden;
+	transition: 1.5s !important;
+}
+
+div.cave-grid>img {
+	content: url('https://files.catbox.moe/2tyz19.png')!important;
+	height: 130px;
+        width: 230px;
+	opacity: 1;
+	overflow: hidden;
+	border: 0px;
+	border-radius: 10px;
+        transition: 1.5s !important;
+}
+
+div.cave-grid>img:hover{
+	content: url('https://files.catbox.moe/2tyz19.png')!important;
+	height: 130px;
+	opacity: 1;
+	overflow: hidden;
+	transition: 1.5s !important;
+}
+
+/* mound(s) */
+
+.mound-grid img {
+	background: url('https://files.catbox.moe/bjlseh.png');
+        background-size: cover;
+	width: 0;
+	padding-top: 90px;
+	padding-right: 150px;
+	opacity: 1;
+        transition: 1.5s;
+        border-radius: 10px;
+}
+
+.mound-grid img:hover {
+	background: url('https://files.catbox.moe/bjlseh.png');
+        background-size: cover;
+	width: 0;
+	padding-top: 90px;
+	padding-right: 150px;
+	opacity: 1;
+	transition: 1.5s !important;
+        border-radius: 10px;
+}
+
+/* CHAT */
+
+ .s-chat-message:nth-child(even) /* Even Numbered Messages */ {
+   background: #9c711d !important; 
+   color: #ffefbe !important;
+}
+
+.s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
+    background: #af8437;
+    color: #ffefbe !important;
+}
+
+.s-chat-message__pinned {
+	background: #E7C46E !important;  
+        color: #ffefb9 !important;
+	border-radius: 10px;
+}
+
+.s-chat-message__mod {
+        border: none !important;
+        background: #DDB565 !important;  
+        color: #F9E9A3 !important;
+}
+
+.s-chat-message_timestamp {
+	color: #ffefbe !important;
+}
+
+div#chatMessageContainer {
+        background: #9C7028 !important;
+	border: 1px solid #150c5a;
+}
+
+#label_currentChannel {
+        background: #9C7028 !important;  
+        color: #F9E9A3 !important;
+	border-radius: 10px; 
+        margin-top: 0px; 
+}
+
+#fraChatSettingsMenu {
+    background: #A9812F !important;
+    color: #F9E9A3 !important;
+    text-shadow: none !important;
+}
+
+#fra_chatContainer label {
+    background: #A9812F !important;
+    color: #F9E9A3 !important;
+    text-shadow: none !important;
+}
+
+#txtChatInput { 
+    background: #A9812F !important;  
+}
+
+#btnChatSend { 
+       background: #5e3b0f !important;
+       color: #ffe9a4 !important;
+       text-shadow: 1px 1px 1px #794e0f !important;
+       border: none;
+       border-radius: 10px; 
+       margin-top: 0px; 
+       transition: 1s;
+}
+
+#btnChatSend:hover { 
+        background: #DDB565 !important; 
+        color: #F9E9A3;
+        text-shadow: 2px 1.5px 1px #794e0f;
+        border: none;
+	border-radius: 10px; 
+        margin-top: 0px; 
+        transition: 1s;
+}
+
+#fraChatChannelMenu {
+       background: #9C7028 !important;
+       color: #ffefb9 !important;
+       text-shadow: 1px 1px 1px #794e0f !important;
+       border: none;
+       border-radius: 10px; 
+}
+
+.channelSwitcher {
+     color: #ffefb9 !important;
+}
+
+.channelSwitcher.active {
+    background: #DDB565 !important;
+}
+
+#fraChatChannelMenu > button.channelSwitcher.active:hover {
+    background: #DDB565 !important;  
+}
+
+#fraChatChannelMenu > button:nth-child(2):hover {
+    background: #DDB565 !important;  
+}
+
+#fraChatChannelMenu > button:nth-child(3):hover {
+    background: #DDB565 !important;  
+}
+
+#fraChatChannelMenu > button:nth-child(4):hover {
+    background: #DDB565 !important;  
+}
+
+#fraChatChannelMenu > button:nth-child(5):hover {
+    background: #DDB565 !important;  
+}
+
+#fraChatChannelMenu > button:nth-child(6):hover {
+    background: #DDB565 !important;  
+}
+
+#fraChatChannelMenu > button:nth-child(7):hover {
+    background: #DDB565 !important;  
+}
+
+#fraChatChannelMenu > button:nth-child(8):hover {
+    background: #DDB565 !important;   
+}
+
+/* credits */
+
+/* codes made by pandora #144118 and kat .:red lion of voltron:. #94329. codes may be edited, used in commissions or for personal use. please do not remove credit */
+
+/* member online */
+ 
+.member-online {
+    background: #000000;
+}
+ 
+/* member offline */
+ 
+.member-offline {
+    background: #000000;
+}
+
+/* member online */
+ 
+.member-online {
+    background: rgba(207,207,207,0);
+    content:url('https://files.catbox.moe/0wmnno.png')!important;
+    border-radius: 0px;
+    width: 50px!important;
+    height: 50px;
+    margin-bottom: -15px !important;
+    margin-left: 5px;
+}
+ 
+/* member offline */
+ 
+.member-offline {
+    background: rgba(207,207,207,0);
+    content:url('https://files.catbox.moe/237z4y.png')!important;
+    border-radius: 0px;
+    width: 50px!important;
+    height: 50px;
+    margin-bottom: -15px !important;
+    margin-left: 5px;
+}
+
+/* gb/sb icons */
+ 
+/* gold beetle */
+img[src$="icon-beetle-gold.png"] {
+    content: url('https://files.catbox.moe/50zg7b.png');
+}
+
+/* silver beetle */
+
+img[src$="icon-beetle-silver.png"] {
+    content: url('https://files.catbox.moe/czd50x.png');
+}
+
+/* event currency */
+
+/* jan */
+img[src$="dermestid.png"] {
+    content:url('https://files.catbox.moe/ygsjdt.png')!important;
+    height: 50px; 
+    width: 50px;
+    filter: hue-rotate(5deg) drop-shadow(0px 1px 4px #DEB64B);
+    margin-top: 10px; 
+}
+
+/* jan */
+img[src$="icon_doubloon.png"] {
+    content:url('https://files.catbox.moe/ndd99m.png')!important; 
+    height: 45px; 
+    width: 50px;
+    filter: hue-rotate(15deg) drop-shadow(1.5px 1px 1.5px #DEB64B);
+}
+
+/* feb */
+img[src$="HeartShell.png"] {
+    content:url('https://files.catbox.moe/ygsjdt.png')!important;
+    height: 50px; 
+    width: 50px;
+    filter: hue-rotate(5deg) drop-shadow(0px 1px 4px #DEB64B);
+    margin-top: 10px; 
+}
+
+/* march */
+img[src$="beetlerhino.png"] {
+    content:url('https://files.catbox.moe/ygsjdt.png')!important;
+    height: 50px; 
+    width: 50px;
+    filter: hue-rotate(5deg) drop-shadow(0px 1px 4px #DEB64B);
+    margin-top: 10px; 
+}
+
+/* april */
+img[src$="easteregg.png"] {
+    content:url('https://files.catbox.moe/ygsjdt.png')!important;
+    height: 50px; 
+    width: 50px;
+    filter: hue-rotate(5deg) drop-shadow(0px 1px 4px #DEB64B);
+    margin-top: 10px; 
+}
+
+/* may */
+img[src$="beetlemant.png"] {
+    content:url('https://files.catbox.moe/ygsjdt.png')!important;
+    height: 50px; 
+    width: 50px;
+    filter: hue-rotate(5deg) drop-shadow(0px 1px 4px #DEB64B);
+    margin-top: 10px; 
+}
+
+/* june */
+img[src$="khepri.png"] {
+    content:url('https://files.catbox.moe/ygsjdt.png')!important;
+    height: 50px; 
+    width: 50px;
+    filter: hue-rotate(5deg) drop-shadow(0px 1px 4px #DEB64B);
+    margin-top: 10px;   
+}
+
+/* july ms */
+img[src$="shard.png"] {
+    content:url('https://files.catbox.moe/ygsjdt.png')!important;
+    height: 50px; 
+    width: 50px;
+    filter: hue-rotate(5deg) drop-shadow(0px 1px 4px #DEB64B);
+    margin-top: 10px;  
+}
+
+/* july ac */
+img[src$="axion.png"] {
+    content:url('https://files.catbox.moe/ndd99m.png')!important; 
+    height: 45px;
+    width: 50px;
+    filter: hue-rotate(5deg) drop-shadow(0px 1px 4px #DEB64B);
+}
+
+/* aug cb */
+img[src$="beetlecarrion.png"] {
+    content:url('https://files.catbox.moe/ygsjdt.png')!important;
+    height: 50px; 
+    width: 50px;
+    filter: hue-rotate(5deg) drop-shadow(0px 1px 4px #DEB64B);
+    margin-top: 10px; 
+}
+
+/* aug db */
+img[src$="bone.png"] {
+    content:url('https://files.catbox.moe/ndd99m.png')!important;
+    height: 45px;
+    width: 50px;
+    filter: hue-rotate(5deg) drop-shadow(0px 1px 4px #DEB64B);
+}
+
+/* sept jb */
+img[src$="beetlejewel.png"] {
+    content:url('https://files.catbox.moe/ygsjdt.png')!important;
+    height: 50px; 
+    width: 50px;
+    filter: hue-rotate(5deg) drop-shadow(0px 1px 4px #DEB64B);
+    margin-top: 10px; 
+}
+
+/* sept et */
+img[src$="eldritch.png"] {
+    content:url('https://files.catbox.moe/ndd99m.png')!important;
+    height: 45px;
+    width: 50px;
+    filter: hue-rotate(5deg) drop-shadow(0px 1px 4px #DEB64B);
+}
+
+/* oct bb */
+img[src$="beetleblood.png"] {
+    content:url('https://files.catbox.moe/ygsjdt.png')!important;
+    height: 50px; 
+    width: 50px;
+    filter: hue-rotate(5deg) drop-shadow(0px 1px 4px #DEB64B);
+    margin-top: 10px; 
+}
+
+/* oct nf */
+img[src$="nephelinefeather.png"] {
+    content:url('https://files.catbox.moe/ndd99m.png')!important;
+    height: 45px;
+    filter: hue-rotate(5deg) drop-shadow(0px 1px 4px #DEB64B);
+    width: 50px;
+}
+
+/* oct ds */
+img[src$="demonicscale.png"] {
+    content:url('https://files.catbox.moe/y47q7e.png')!important; 
+    height: 45px;
+    width: 50px;
+    filter: hue-rotate(5deg) drop-shadow(0px 1px 4px #DEB64B);
+}
+
+/* nov */
+img[src$="scarabbeetle.png"] {
+    content:url('https://files.catbox.moe/ygsjdt.png')!important;
+    height: 50px; 
+    width: 50px;
+    filter: hue-rotate(5deg) drop-shadow(0px 1px 4px #DEB64B);
+    margin-top: 10px; 
+}
+
+/* dec */
+img[src$="stinkbug.png"] {
+    content:url('https://files.catbox.moe/ygsjdt.png')!important;
+    height: 50px; 
+    width: 50px;
+    filter: hue-rotate(5deg) drop-shadow(0px 1px 4px #DEB64B);
+    margin-top: 10px; 
+}
+
+/* time day */
+
+img[src$="time-day.png"] {
+    content: url('https://files.catbox.moe/7a08j4.png')!important;
+    width: 60px !important;
+    height: 55px !important;
+    margin-left: -60px;
+    margin-top: -5px;
+    filter: opacity(70%) hue-rotate(20deg) contrast(200%) drop-shadow(0px 1px 4px #DEB64B);
+
+}
+
+/* time night */
+img[src$="time-night.png"] {
+    content: url('https://files.catbox.moe/7a08j4.png')!important;
+    width: 60px !important;
+    height: 55px !important;
+    margin-left: -60px;
+    margin-top: -5px;
+    filter: opacity(70%) hue-rotate(20deg) contrast(200%) drop-shadow(0px 1px 4px #DEB64B);
+
+}
+
+/* season */
+
+/* dry season */
+img[src$="dry.png"] {
+    content: url('https://files.catbox.moe/hnnoxd.png')!important;
+    width: 55px !important;
+    height: 55px !important;
+    margin-left: -10px;
+    margin-top: -5px;
+    filter: drop-shadow(0px 1px 4px #DEB64B);
+    transform: scalex(-1);
+}
+
+/* wet season */
+img[src$="wet.png"] {
+    content: url('https://files.catbox.moe/hnnoxd.png')!important;
+    width: 50px !important;
+    height: 50px !important;
+    margin-left: 0px;
+    margin-top: -5px;
+    filter: drop-shadow(0px 1px 4px #DEB64B);
+    transform: scalex(-1);
+}
+ 
+/* FEATURED LION BACKGROUND */
+
+.lionImage > div > img:first-child {
+        content: url('https://files.catbox.moe/r8kxnt.png') !important;
+        border-radius: 10px !important;
+}
+
+.lionImage > img {
+            content: url('https://files.catbox.moe/r8kxnt.png')!important; 
+            border-radius: 10px !important;
+}
+
+/* panel behind cave image ? */
+
+div.lionImage.featured-lion { 
+                 background: #9C7028;
+                 border-radius: 10px;
+}
+
+/* cave arrow adjusters */
+
+img[src$='arrow.png'], img[src$='arrowleft.png'], img[src$='arrowright.png'] {
+     filter: hue-rotate(-40deg);
+}
+
+img[src$='arrowgray.png'] {
+    filter: hue-rotate(-50deg);
+}
+
+/* comment box code by hok-z #41458 */
+
+/*-------------------------*/
+      /*Comment Box*/
+/*-------------------------*/
+
+#commentBox {
+   background: #5e3b0f !important; 
+   border: none;
+   color: #ffefb9 !important;
+}
+
+.comment:nth-child(even) {
+    background: #af8437 !important; 
+    color: #ffefb9 !important;
+}
+
+.comment:nth-child(odd) {
+   background: #9c711d;
+   color: #ffefb9;
+}
+
+input#comment {
+    background: #A9812F !important;  
+    color: #ffefb9 !important;
+}
+
+small.text-muted {
+   color: #ffefb9;
+}
+
+small.text-muted a {
+   color: #ffefb9;
+}
+
+#postComment {
+       background: #5e3b0f !important;
+       color: #ffe9a4 !important;
+       text-shadow: 1px 1px 1px #794e0f !important;
+       border: none;
+       border-radius: 10px; 
+       margin-top: 0px; 
+       transition: 1s;
+}
+
+#postComment:hover { 
+        background: #DDB565 !important; 
+        color: #F9E9A3;
+        text-shadow: 2px 1.5px 1px #794e0f;
+        border: none;
+	border-radius: 10px; 
+        margin-top: 0px; 
+        transition: 1s;
+}
+
+/*-------------------------*/
+      /*Scrollbars*/
+/*-------------------------*/
+
+#commentBox::-webkit-scrollbar {
+      width: 10px;
+      height: 7px;
+}
+
+#commentBox::-webkit-scrollbar-track {
+   background: #fae588 !important;
+   border: 1px solid #150c5a !important;
+}
+
+#commentBox::-webkit-scrollbar-thumb {
+   background: #8b6a35;
+   border: 1px solid #DEB64B;
+}
+
+/* my stuff by #480107 */
+
+/* pagedoll */
+
+.container.main::after {
+  background-image: url('https://files.catbox.moe/w6v793.png');
+  background-size: cover;
+  position: fixed;
+  display: block;
+  height: 250px;
+  width: 300px;
+  filter: drop-shadow(0px 1px 4px #794e0f);
+  right: 5px;
+  bottom: 0px;
+  overflow: visible !important;
+  z-index: 9999;
+}
+
+/* player table top and bottom bars */
+
+#player > tbody > tr:nth-child(1) > td {
+     color: #ffefbe;
+}
+
+#player > tbody > tr.right > td > div.xlarge > a:nth-child(1) {
+opacity: 0.8;
+
+}
+
+#player > tbody > tr.right > td > div.xlarge > a:nth-child(3) {
+opacity: 0.8;
+
+}
+
+#player > tbody > tr.right > td > div.xlarge > a:nth-child(5) {
+opacity: 0.8;
+
+}
+
+#player > tbody > tr.right > td > p > a:nth-child(1) {
+opacity: 0.8;
+
+}
+
+#player > tbody > tr.right > td > p > a:nth-child(3) {
+opacity: 0.8;
+
+}
+
+#player > tbody > tr:nth-child(3) > td:nth-child(1) > a { 
+opacity: 0.8;
+
+}
+
+#player > tbody > tr:nth-child(3) > td.right_odd.text-right > a {
+opacity: 0.8;
+
+}
+
+hr {
+opacity: 0.7;
+
+}
+
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(1) { 
+opacity: 0.8;
+
+}
+
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(3) {
+opacity: 0.8;
+
+}
+
+.badge {
+	background: #5e3b0f !important;
+	color: #ffefbe;
+    text-shadow: 2px 1px 2px #794e0f;
+    padding-left: 6px;
+}
+
+.auto {
+    margin: 0 auto;
+}
+
+.inner-table {
+    border-spacing: 2px 1px;
+    border-collapse: separate;
+}
+
+/* king dynasty/pride dynasty/achievements/showcase/beetlebook */
+
+/* king dynasty */
+
+img[src$="den_ancestors.png"] {
+    content: url('https://files.catbox.moe/60rnmj.png');
+    border-radius: 10px;
+    height: auto !important;
+    opacity: 1;
+    transition: 1.5s;   
+}
+
+img[src$="den_ancestors.png"]:hover {
+   transition: 1.5s; 
+   opacity: 1;
+}
+
+/* pride dynasty */
+
+img[src$="ancestorsfem.png"] {
+    content: url('https://files.catbox.moe/evbgi9.png');
+    height: auto !important;
+    border-radius: 10px;
+    opacity: 1;
+    transition: 1.5s;
+}
+
+img[src$="ancestorsfem.png"]:hover {
+    opacity: 1;
+    transition: 1.5s;
+}
+
+/* achievements */
+
+img[src$="den_achievements.png"] {
+    content: url('https://files.catbox.moe/r8kxnt.png');
+    border-radius: 10px;
+    height: auto !important;
+    opacity: 1;
+    transition: 1.5s;
+}
+
+img[src$="den_achievements.png"]:hover {
+    opacity: 1;
+    transition: 1.5s;
+}
+
+/* showcase */
+
+img[src$="den_showcase.png"] {
+    content: url('https://files.catbox.moe/nw97g4.png');
+    border-radius: 10px;
+    height: auto !important;
+    opacity: 1;
+    transition: 1.5s;
+}
+
+img[src$="den_showcase.png"]:hover {
+    opacity: 1;
+    transition: 1.5s;
+}
+
+/* beetle book */
+
+img[src$="den_beetlebook.png"] {
+    content: url('https://files.catbox.moe/bop21z.png');
+    border-radius: 10px;
+    opacity: 1;
+    transition: 1.5s;
+    height: auto !important;
+}
+
+img[src$="den_beetlebook.png"]:hover {
+    border-radius: 10px;
+    opacity: 1;
+    transition: 1.5s;
+}
+
+/* frames */
+
+#player > tbody > tr.right > td:nth-child(2)::before {
+    content: url('https://files.catbox.moe/7awwiv.png');
+    z-index: 100;
+    top: -29px; /* experiment with smaller offsets */
+    right: -29px; /* tweak as needed */
+    position: absolute;
+    scale: .79;
+}
+
+@media screen and (min-width: 601px) {
+
+#about > tbody > tr.right > td:nth-child(1) > a::before {
+    content: url('https://files.catbox.moe/jvpfjn.png');
+    z-index: 100;
+    left: 0px;
+    display: block;
+    position: absolute;
+    scale: 1.1;
+}
+
+#lion_image {
+        position: relative;
+        border-radius: 10px;
+        margin-top: 10px;
+        border: none;
+        opacity: 1;
+        overflow: hidden;
+        transition: 1.5s;
+}
+}
+
+@media screen and (max-width: 600px) {
+
+#about > tbody > tr.right > td:nth-child(1) > a::before {
+    content: url('https://files.catbox.moe/jvpfjn.png');
+    z-index: 100;
+    top: 15px;
+    left: -10px;
+    display: inline-block;
+    position: relative;
+    scale: 1.1;
+}
+
+#lion_image {
+        height: 200px;
+        position: relative;
+        border-radius: 10px;
+        margin-top: -200px;
+        border: none;
+        opacity: 1;
+        overflow: hidden;
+        transition: 1.5s;
+}
+}
+
+/* player table background */
+
+#player {
+     background: url('https://files.catbox.moe/872yt9.png'), url('https://files.catbox.moe/n3v9ds.png') center !important;
+     background-size: cover !important;
+     color: #fff;
+     text-shadow: -1px -1px 0 #794e0f, 1px -1px 0 #794e0f, -1px  1px 0 #794e0f, 1px  1px 0 #794e0f;
+     border: none;
+}
+
+/* lion table background */
+
+#about > tbody > tr.right {
+    background: url('https://files.catbox.moe/n3v9ds.png') !important;
+    background-size: cover !important;
+    color: #fff;
+    text-shadow: -1px -1px 0 #794e0f, 1px -1px 0 #794e0f, -1px  1px 0 #794e0f, 1px  1px 0 #794e0f;
+    border: none;
+}
+
+/* attack table bg */
+
+#attack { 
+     background: url('https://files.catbox.moe/n3v9ds.png') !important;
+     background-size: cover !important;
+     color: #fff;
+     text-shadow: -1px -1px 0 #794e0f, 1px -1px 0 #794e0f, -1px  1px 0 #794e0f, 1px  1px 0 #794e0f;
+     border: none;
+}
+
+form > select {
+        background: #743209;
+}
+
+/* ally table bg */
+
+#allies {
+     background: url('https://files.catbox.moe/n3v9ds.png') !important;
+     text-shadow: -1px -1px 0 #794e0f, 1px -1px 0 #794e0f, -1px  1px 0 #794e0f, 1px  1px 0 #794e0f;
+     color: #fff;
+     background-size: cover !important;
+     border-radius: 10px !important;
+     border: none;
+}
+
+/* clan table bg */
+
+#clans {
+     background: url('https://files.catbox.moe/n3v9ds.png') !important;
+     text-shadow: -1px -1px 0 #794e0f, 1px -1px 0 #794e0f, -1px  1px 0 #794e0f, 1px  1px 0 #794e0f;
+     color: #fff;
+     background-size: cover !important;
+     border-radius: 10px;
+     border: none;
+}
+
+/* sidebar panel(s) */
+
+.panel {
+        background: rgba(128, 198, 239, 0.1) !important;
+	background-image: url('https://files.catbox.moe/n3v9ds.png')!important;
+	background-size: cover !important;
+        text-shadow: -1px -1px 0 #794e0f, 1px 1px 0 #794e0f, 1px 1px 0 #794e0f, 1px 1px 0 #794e0f;
+        background-blend-mode: screen;
+        box-shadow: #794E0F 20px -60px 100px -40px inset !important;
+	border-radius: 10px;
+        border: 1px solid #DEB64B !important;	
+        color: #ffefbe !important;
+}
+
+/* alignment */
+
+.dynastylist {
+     max-width: 20%;
+}
+
+h3 {
+    font-size: 12px !important;
+    color: #ffefbe!important;
+    text-shadow: -1px -1px 0 #794e0f, 1px -1px 0 #794e0f, -1px  1px 0 #794e0f, 1px  1px 0 #794e0f;
+
+}
+
+.sidebar h3 {
+            font-size: 23px !important;
+            color: #FAF9D0 !important;
+}
+
+#pageContainer > h1 > small {
+       color: #FAF9D0 !important;
+}
+
+/* social media icons */
+
+img[src$='iconFB.png'] {
+        content: url('https://files.catbox.moe/t4yt4l.png');
+        filter: opacity(70%);
+        height: 55px;
+        width: 55px!important;
+        transform: scalex(-1);
+        transition: 1s;
+}
+
+img[src$='iconFB.png']:hover {
+           filter: opacity(100%);
+           transition: 1s;
+} 
+     img[src$='iconTwit.png'] {
+        content: url('https://files.catbox.moe/0fyzs1.png');
+        filter: opacity(70%);
+        height: 55px!important;
+        width: 55px!important;
+        transition: 1s;
+}
+
+img[src$='iconTwit.png']:hover {
+         filter: opacity(100%);
+         transition: 1s;
+}
+ 
+ img[src$='iconTwitch.png'] {
+        content: url('https://files.catbox.moe/t4yt4l.png');
+        filter: opacity(70%);
+        height: 55px;
+        width: 55px! important;
+        transform: scaleX(1);
+        transition: 1s;
+}
+
+img[src$='iconTwitch.png']:hover {
+         filter: opacity(100%);
+         transition: 1s;
+}
+
+img[src$='iconYoutube.png'] {
+        content: url('https://files.catbox.moe/0fyzs1.png');
+        filter: opacity(70%);
+        height: 55px;
+        width: 55px!important;
+        transition: 1s;
+        transform: scalex(-1);
+}
+
+img[src$='iconYoutube.png']:hover {
+        transition: 1s;
+        filter: opacity(100%);
+}
+
+/* hungry icon */
+
+div.alert.alert-danger > img {
+        content: url('https://files.catbox.moe/aafyz1.png') !important;
+        height: 35px; 
+        width: 35px;
+}
+
+/* news thing */
+
+body > div.container.main > div:nth-child(2) > div.col-md-9.col-xs-12 > div:nth-child(3) > img {
+        content: url('https://files.catbox.moe/mdfftn.png') !important;
+        height: 30px; 
+        width: 30px;
+}
+
+/* chat emote button replacer */
+
+.emoteInput, .emoteInput:hover {
+ background: url('https://files.catbox.moe/la5t25.png') !important;
+
+}
+
+@media screen and (min-width: 601px) {
+
+/* NAVBAR BUTTON HOVER */
+
+.navbar li a:hover {
+	background-image: url('https://files.catbox.moe/872yt9.png') !important;
+        background-size: cover !important;
+        color: #ffe595 !important;
+        font-size: 18.5px;
+        border: 1px solid #150c5a;
+        text-shadow: 2px 2px 2px #794e0f;
+        padding-left: 50px;
+	transition: 1s;
+}
+
+.navbar li a:hover::before {
+	content:'✨';
+	position: absolute;
+        left: 15px;
+}
+}
+
+center > div.feature.auto.caqsed$rFTG6Y7HJMKO,2Eenter {
+ background: inherit !important;
+ border: none;
+
+}
+
+div.center.b {
+            color: #cddaea !important; 
+}
+
+/* albino cub img */
+
+img[src$="albinochallenge.png"] {
+   border-radius: 10px;  
+}
+
+/* snuh lion table */
+
+/* button */
+
+center > div.feature.auto.center > form > input { 
+   border-radius: 10px;
+}
+
+/* background */
+
+center > div.feature.auto.center {
+   border-radius: 10px;
+}
+
+/* snuh lion image */
+
+center > div.feature.auto.center > img {
+   border-radius: 10px;
+}
+
+/* box credits to katie #106445 edited by #480107 */
+
+h2 { 
+   color: #FAF9D0;
+}
+
+/* BOX CONTAINER */
+
+.boxcontainer {
+	background-image: url('https://files.catbox.moe/r8kxnt.png') !important;
+        background-size: cover;
+        background-attachment: absolute !important;
+        max-width: 750px;
+        border: 1px solid #DEB64B;
+        border-radius: 10px;
+	height: auto;
+	padding: 10px; 
+        margin: auto;
+	justify-content: center;
+	display: flex;
+        flex-wrap: wrap;
+}
+
+/* BOXES */
+
+.mediumhoverbox {
+	float: left;
+	background: rgb(156,112,40,1);
+    border: 1px solid #DEB64B;
+	padding: 10px;
+	border-radius: 10px;
+	margin: 10px;
+    color: #ffefb9;
+	height: 150px;
+	width: 43.8%;
+	overflow: auto;
+    transition: 2s;
+}
+
+.mediumhoverbox:hover {
+	height: 200px;
+	width: 43.8%;
+}
+
+.largehoverbox {
+	float: left;
+	text-shadow: #794e0f -1px -1px 0px, #794e0f 1px -1px 0px, #794e0f -1px 1px 0px, #794e0f 1px 1px 0px;
+    color: #ffefb9;
+	background: #9C7028;
+    border: 1px solid #DEB64B;
+	padding: 10px;
+	border-radius: 10px;
+	margin: 10px;
+	height: 200px;
+	width: 80%;
+	overflow: auto;
+    transition: 2s;
+}
+
+.largehoverbox:hover {
+	height: 250px;
+	width: 80%;
+}
+
+/* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
+
+@media only screen and (max-width: 767px) {
+        .container.main .hidden-xs {
+            display: block !important;
+        }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+	display: block !important;
+}
+
+@media only screen and (min-width: 1200px) {
+		div.quote {
+			width: 790px;
+		}
+	}
+
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/nature/nat-9/nat851.ani), url(https://cur.cursors-4u.net/nature/nat-9/nat851.png), auto !important;} /* End https://www.cursors-4u.com */
